@@ -1,0 +1,733 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    padding-bottom: 30px;
+
+
+}
+
+.allhead {
+    display: flex;
+    width: 100%;
+    gap: 10%;
+    justify-content: center;
+    height: 100%;
+}
+
+.allhead ul {
+    display: flex;
+    list-style: none;
+    width: 70%;
+    justify-content: space-evenly;
+}
+
+
+
+
+.allhead a {
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+    display: 100%;
+}
+
+.allhead a:hover {
+    color: greenyellow;
+    text-decoration: underline 2px;
+}
+
+/*Background camputer*/
+#finbackground {
+    background: url(background\ dev\ web.jpg) fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+
+}
+
+/*profil*/
+
+h1 {
+    margin-top: 10%;
+    color: greenyellow;
+    position: relative;
+    text-align: center;
+    justify-items: center;
+    width: 100%;
+    margin-bottom: 5%
+}
+
+h1 p {
+    backdrop-filter: blur(55px);
+    border-radius: 20px;
+    font-size: 40px;
+    align-content: center;
+}
+
+.allpresetation {
+    color: whitesmoke;
+    cursor: default;
+    width: 100%;
+
+}
+
+h2 {
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    backdrop-filter: blur(5px);
+    color: greenyellow;
+    text-decoration: underline overline 2px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+h2:hover {
+    transform: scale(1.1);
+}
+
+.allpresetation b:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+.allpresetation p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-justify: center;
+    width: 100%;
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+
+/*cases certif, projets*/
+main:hover {
+    content: 'bonjour';
+    display: block;
+}
+
+.profilabout {
+    cursor: default;
+    color: whitesmoke;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+
+.profilabout strong {
+    font-size: 35px;
+}
+
+.Projetsencours {
+    margin-top: 20px;
+    width: 20%;
+    height: 110px;
+    text-align: center;
+    align-content: center;
+    backdrop-filter: blur(100px);
+    border-radius: 5px;
+    border: 3px solid yellowgreen;
+    -webkit-box-reflect: below 2px linear-gradient(transparent, black);
+    transition: 0.5s;
+    margin-bottom: 20%;
+}
+
+.profilabout span:hover {
+    transform: scale(1.1);
+    color: greenyellow;
+    background-color: yellowgreen;
+    text-decoration: underline 2px whitesmoke;
+
+}
+
+
+
+
+.Projetsrealisés {
+    margin-top: 20px;
+    width: 20%;
+    height: 110px;
+    align-content: center;
+    text-align: center;
+    backdrop-filter: blur(100px);
+    border-radius: 5px;
+    border: 2px solid yellowgreen;
+    -webkit-box-reflect: below 2px linear-gradient(transparent, black);
+    transition: 0.5s;
+    margin-bottom: 20%;
+}
+
+.Certifications {
+    margin-top: 20px;
+    width: 20%;
+    height: 110px;
+    align-content: center;
+    text-align: center;
+    backdrop-filter: blur(100px);
+    border-radius: 5px;
+    border: 2px solid yellowgreen;
+    -webkit-box-reflect: below 2px linear-gradient(transparent, black);
+    transition: 0.5s;
+    margin-bottom: 20%;
+}
+
+
+
+/*parcours*/
+h3 {
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    backdrop-filter: blur(5px);
+    color: greenyellow;
+    text-decoration: underline overline 2px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: 1s;
+
+}
+
+h3:hover {
+    opacity: calc(10%);
+}
+
+.parcours {
+
+    width: 100%;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.parcourscolaire {
+    background: linear-gradient(to right, transparent, black, transparent);
+    width: 50%;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+    background: url(background\ dev\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parcourscolaire b {
+    color: greenyellow;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.parcourscolaire div {
+    margin-left: 55%;
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    background-color: rgb(60, 60, 60);
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 10px;
+}
+
+.parcourscolaire div:hover {
+    transform: scale(1.1);
+}
+
+.parcourscolaire strong {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.parcourscolaire p {
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    height: 60px;
+    background-color: rgb(60, 60, 60);
+    align-content: center;
+    font-size: 20px;
+    margin-right: 55%;
+    cursor: pointer;
+    color: yellowgreen;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.parcourscolaire p:hover {
+    transform: scale(1.1);
+}
+
+.parcourscolaire strong {
+    width: 100%;
+    text-align: center;
+    color: yellowgreen;
+    font-size: 25px;
+
+}
+
+/*Parcours professionelle*/
+
+h4 {
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    backdrop-filter: blur(5px);
+    color: greenyellow;
+    text-decoration: underline overline 2px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+h4:hover {
+
+    opacity: calc(10%);
+}
+
+.parcoursprofessionelle {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 10px;
+    background: linear-gradient(to right, transparent, black, transparent);
+    border-left: 3px solid black;
+
+    background: url(background\ dev\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parcoursprofessionelle p {
+    border: 2px solid greenyellow;
+    color: greenyellow;
+}
+
+.parcoursprofessionelle strong {
+    width: 100%;
+    text-align: center;
+    color: yellowgreen;
+    font-size: 25px;
+}
+
+.parcoursprofessionelle p {
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    height: 60px;
+    background-color: rgb(60, 60, 60);
+    align-content: center;
+    font-size: 20px;
+    margin-right: 55%;
+    cursor: pointer;
+    color: yellowgreen;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.parcoursprofessionelle p:hover {
+    transform: scale(1.1);
+}
+
+.parcoursprofessionelle div {
+    margin-left: 55%;
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    background-color: rgb(60, 60, 60);
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 10px;
+}
+
+.parcoursprofessionelle div:hover {
+    transform: scale(1.1);
+}
+
+.parcoursprofessionelle b {
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+
+/*Site réalisé*/
+
+.headers {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h5 {
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: greenyellow;
+    text-decoration: underline overline 2px;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.allprojects {
+    display: flex;
+    width: 100%;
+    align-content: space-between;
+    border-left: 2px;
+}
+
+.luxurycars {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.luxurycars img {
+    border-radius: 20px;
+    margin: 20px;
+    transition: 0.6s;
+    width: 70%;
+}
+
+.luxurycars img:hover {
+    transform: rotate(5deg);
+    opacity: calc(0.2);
+}
+
+
+/*Projet en cours*/
+
+h6 {
+    border-left: 3px solid black;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: greenyellow;
+    text-decoration: underline overline 2px;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.tgt {
+    width: 100%;
+    text-align: center;
+    border-left: 3px solid black;
+    background-position: center;
+
+}
+
+.tgt img {
+    width: 70%;
+    border-radius: 20px;
+    margin: 20px;
+    transition: 0.6s;
+    cursor: pointer;
+
+}
+
+.tgt:hover {
+    background: url(capture_1_tgt.png);
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 2s;
+}
+
+.tgt img:hover {
+    transform: rotate(5deg);
+    opacity: calc(0.0);
+    /*opacity: calc(0.0);*/
+}
+
+/*Compétences*/
+
+.compétences {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 50px;
+    background: linear-gradient(to right, transparent, rgb(21, 5, 58), transparent);
+    width: 100%;
+}
+
+
+
+.compétences strong {
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: greenyellow;
+    text-decoration: underline overline 2px;
+    width: 100%;
+
+}
+
+
+
+.langagesborder span {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: greenyellow;
+    padding-left: 20px;
+}
+
+.langages {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.htmlnav {
+    border: 1px solid yellowgreen;
+    background-color: rgb(4, 13, 35);
+    color: yellowgreen;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    border-radius: 20px;
+    margin: 20px 10px 20px;
+    transition: 0.5s;
+
+}
+
+.htmlnav:hover {
+    color: black;
+    background-color: yellowgreen;
+    transform: scale(1.1);
+    border: 3px solid black;
+}
+
+/*Visualiser mon CV*/
+
+.CV {
+    background: url(background\ dev\ 3.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.CV strong {
+    border-left: 3px solid black;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: rgb(172, 255, 47);
+    text-decoration: underline overline 2px;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: 1s;
+
+}
+
+.allCV {
+    margin-top: 20px;
+    width: 100%;
+    height: min-content;
+    display: flex;
+    text-align: center;
+
+}
+
+.imgpro {
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    opacity: calc(0.7);
+}
+
+.imgpro img {
+    width: 300px;
+    opacity: calc(0.9);
+    border-radius: 50%;
+}
+
+.paragraphe {
+    height: 100%;
+    width: 100%;
+    height: min-content;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+
+.buttonCV {
+    width: 300px;
+    height: 40px;
+    color: yellowgreen;
+    background-color: black;
+    border: 2px solid rgb(84, 106, 40);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: 0.9s;
+
+}
+
+.buttonCV:hover {
+    transform: scale(1.1);
+    background: url(background\ dev\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Certif {
+    margin-top: 20px;
+    text-justify: center;
+}
+
+/*Contact*/
+
+.Titlestrong {
+    margin-top: 100px;
+}
+
+.Contact {
+    color: white;
+    width: 100%;
+    justify-items: center;
+    text-align: center;
+    justify-self: center;
+    margin-bottom: 20px;
+    background-color: rgb(154, 205, 50, 0.4)
+}
+
+.border {
+    border-radius: 10px;
+    border: 2px solid rgb(2, 3, 0);
+    backdrop-filter: blur(30px);
+    width: 40%;
+    justify-items: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.border b {
+    color: yellowgreen;
+}
+
+.Contact strong {
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: rgb(172, 255, 47);
+    text-decoration: underline overline 2px;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+}
+
+.mail a {
+    text-decoration: none;
+    color: white;
+}
+
+.tel {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tel:hover {
+    color: greenyellow;
+}
+
+.mail a:hover {
+    color: greenyellow;
+}
+
+.adresse {
+    display: flex;
+    align-items: center;
+}
+
+.gitLink {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding: 15px 0 0 0;
+
+
+}
+
+.gitLink img {
+    position: block;
+    width: 40px;
+    background-color: yellowgreen;
+    border-radius: 20px;
+    transition: 0.5s;
+    padding-top: 15px;
+}
+
+.gitLink img:hover {
+    padding-top: 0;
+    background-color: aliceblue;
+}
+
+.maps {
+    width: 100%;
+
+}
+
+.maps iframe:hover {
+    transform: scale(1.05);
+    transition: 1s ease;
+}
+
+.maps iframe {
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 60%;
+    height: 100%;
+}
+
+/*Footer*/
+
+footer {
+    background-color: yellowgreen;
+    font-size: 20px;
+    text-align: center;
+}
